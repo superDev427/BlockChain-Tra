@@ -1,10 +1,10 @@
-![logo](https://github.com/Harold0107/BlockChain-Tra/blob/master/public/cover.png)
+![logo](https://github.com/superDev427/BlockChain-Tra/blob/master/public/cover.png)
 # The Crypto Project
 
 This is a fully decentralized blockchain project that implements some of the major features of popular cryptocurrency project like Bitcoin and ethereum using go programming language. This an experimental project for learning purposes and it contains a detailed overview of how blockchain works, **most importantly how this project works**. This project was inspired by [Go Ethereum]and [bitcoin]. This projects is built on existing research and experimentation but offer better networking implementation with the use of automatic peer discovery with the help of lip2p library collection and CLIUI for each Host/Peers to see how peers interact with each other in realtime
 
 # Flow Diagram
-![flow diagram](https://github.com/Harold0107/BlockChain-Tra/blob/master/public/flow-diagram-BlockChain-Tra.png)
+![flow diagram](https://github.com/superDev427/BlockChain-Tra/blob/master/public/flow-diagram-BlockChain-Tra.png)
 
 ## Prerequisite
 - Programming language: [Golang](https://golang.org/)
@@ -15,7 +15,7 @@ This is a fully decentralized blockchain project that implements some of the maj
 
 [Youtube](https://www.youtube.com/watch?v=Kg0v6MdVs3I&t=2s)
 
-![demo](https://github.com/Harold0107/BlockChain-Tra/blob/master/public/demo.png)
+![demo](https://github.com/superDev427/BlockChain-Tra/blob/master/public/demo.png)
 
 ## The Codebase
 - Blockchain
@@ -56,14 +56,14 @@ This type of nodes fosters the verifications of new transactions, manage memory 
 #### Ordinary Nodes
 This type of nodes are part of the network to keep the network running, they mostly verify new blocks on the network
 
-BlockChain-Tra only supports **1 fullnode** and **1 mining node** with **infinite number of ordinary node** due to underlining issues with the memorypool and the mining implementation as [explained here](https://github.com/Harold0107/BlockChain-Tra#challenges)
+BlockChain-Tra only supports **1 fullnode** and **1 mining node** with **infinite number of ordinary node** due to underlining issues with the memorypool and the mining implementation as [explained here](https://github.com/superDev427/BlockChain-Tra#challenges)
 
 ### Consensus mechanism,Mining, Blocks & Proof Of Work (POW)
 Consensus  mechanism means to reach agreements among network nodes or systems. It fosters consistency of information accross multiple Nodes. Most financial institution today are centralized with lot's of restrictions and regulations, blockchian helps remove that barrier and consensus mechanism is an essential part of the blockchain network  because it allows every nodes in the network to maintain an identical copy of the database. Otherwise, we might end up with conflicting information, undermining the entire purpose of the blockchain network.  Bitcoin was the first cryptocurrency to solve the problem of distributed consensus in a trustless network by using the idea behind [Hashcash](http://www.hashcash.org/). Hashcash is a proof-of-work algorithm, which has been used as a denial-of-service (Dos)counter measure technique in a number of systems. Proof of work fosters minting of new digital currency in blockchain network by allowing Nodes to perfrorm expensive computer calculation, also called **mining**, that needs to be performed in order to create a new group of trustless transactions that forms a **block** on a distributed ledger called **blockchain**. The key purpose of this is to prevent [double spending](https://en.wikipedia.org/wiki/Double-spending), [distributed denial-of-service attack (DDoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack) E.T.C. There are different kinds of consensus mechanism algorithms which work on different principles E.G [Proof of Capacity (POC)](https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp) and  [proof of stake (POS)](https://www.investopedia.com/terms/p/proof-stake-pos.asp) but this project implements the Proof of work algorithm used in bitcoin & litecoin
 
 #### Blocks Diagram
 
-![Blocks](https://github.com/Harold0107/BlockChain-Tra/blob/master/public/blocks.png)
+![Blocks](https://github.com/superDev427/BlockChain-Tra/blob/master/public/blocks.png)
 
 #### How do we know that a block is valid ?
 We basically check for two things.
@@ -76,16 +76,16 @@ The wallet system, comparable to a bank account, contains a pair of public and p
 
 #### Flow diagram 
 
-![Wallet system](https://github.com/Harold0107/BlockChain-Tra/blob/master/public/rsz_wallet.jpg)
+![Wallet system](https://github.com/superDev427/BlockChain-Tra/blob/master/public/rsz_wallet.jpg)
 
 
 The wallet system is independent of the blockchain network and it is built ontop of the `demon` Command line(the network default CLI) and also there is a dedicated executable file in the `binaries` folder coupled with basic commands for performing different actions like generating new wallet, listing existing wallets.
 
 #### NB: In order to perform any action that requires the address, it is important to use the cli command for generating wallets because the node or peer doesn't have access to the wallet generated outside of itself and there are no ways to import a wallet to a node just yet.  
 
-##### Download https://github.com/Harold0107/BlockChain-Tra/tree/master/binaries/wallet.exe
+##### Download https://github.com/superDev427/BlockChain-Tra/tree/master/binaries/wallet.exe
 
-Or Re-Build Wallet by navigating [to this folder](https://github.com/Harold0107/BlockChain-Tra/tree/master/cmd/wallet) and proceed to execute the below command to build the wallet
+Or Re-Build Wallet by navigating [to this folder](https://github.com/superDev427/BlockChain-Tra/tree/master/cmd/wallet) and proceed to execute the below command to build the wallet
 
     go build
      
@@ -144,17 +144,17 @@ BlockChain-Tra achieved 100% decentralization via the use of  [libp2p-go ](https
 
 #### Flow Diagram
 
-![flow diagram](https://github.com/Harold0107/BlockChain-Tra/blob/master/public/networking-overview.png)
+![flow diagram](https://github.com/superDev427/BlockChain-Tra/blob/master/public/networking-overview.png)
 
 
 ## Demon CLI
 
 This is the official command line for the crypto project, this commandline allows developers to interact with the blockchain network
 
-##### CLI https://github.com/Harold0107/BlockChain-Tra/tree/master/cmd/demon
+##### CLI https://github.com/superDev427/BlockChain-Tra/tree/master/cmd/demon
 
 #### Build CLI
-Navigate [to this folder](https://github.com/Harold0107/BlockChain-Tra/tree/master/cmd/demon) and run the below command to build the cli
+Navigate [to this folder](https://github.com/superDev427/BlockChain-Tra/tree/master/cmd/demon) and run the below command to build the cli
 
     go build
 
