@@ -1,10 +1,10 @@
-![logo](https://github.com/superDev427/BlockChain-Tra/blob/master/public/cover.png)
+![logo](https://github.com/superDev427/BlockChain-Tra/master/public/cover.png)
 # The Crypto Project
 
 This is a fully decentralized blockchain project that implements some of the major features of popular cryptocurrency project like Bitcoin and ethereum using go programming language. This an experimental project for learning purposes and it contains a detailed overview of how blockchain works, **most importantly how this project works**. This project was inspired by [Go Ethereum]and [bitcoin]. This projects is built on existing research and experimentation but offer better networking implementation with the use of automatic peer discovery with the help of lip2p library collection and CLIUI for each Host/Peers to see how peers interact with each other in realtime
 
 # Flow Diagram
-![flow diagram](https://github.com/superDev427/BlockChain-Tra/blob/master/public/flow-diagram-BlockChain-Tra.png)
+![flow diagram](https://github.com/superDev427/BlockChain-Tra/master/public/flow-diagram-BlockChain-Tra.png)
 
 ## Prerequisite
 - Programming language: [Golang](https://golang.org/)
@@ -15,7 +15,7 @@ This is a fully decentralized blockchain project that implements some of the maj
 
 [Youtube](https://www.youtube.com/watch?v=Kg0v6MdVs3I&t=2s)
 
-![demo](https://github.com/superDev427/BlockChain-Tra/blob/master/public/demo.png)
+![demo](https://github.com/superDev427/BlockChain-Tra/master/public/demo.png)
 
 ## The Codebase
 - Blockchain
@@ -63,7 +63,7 @@ Consensus  mechanism means to reach agreements among network nodes or systems. I
 
 #### Blocks Diagram
 
-![Blocks](https://github.com/superDev427/BlockChain-Tra/blob/master/public/blocks.png)
+![Blocks](https://github.com/superDev427/BlockChain-Tra/master/public/blocks.png)
 
 #### How do we know that a block is valid ?
 We basically check for two things.
@@ -76,7 +76,7 @@ The wallet system, comparable to a bank account, contains a pair of public and p
 
 #### Flow diagram 
 
-![Wallet system](https://github.com/superDev427/BlockChain-Tra/blob/master/public/rsz_wallet.jpg)
+![Wallet system](https://github.com/superDev427/BlockChain-Tra/master/public/rsz_wallet.jpg)
 
 
 The wallet system is independent of the blockchain network and it is built ontop of the `demon` Command line(the network default CLI) and also there is a dedicated executable file in the `binaries` folder coupled with basic commands for performing different actions like generating new wallet, listing existing wallets.
@@ -144,7 +144,7 @@ BlockChain-Tra achieved 100% decentralization via the use of  [libp2p-go ](https
 
 #### Flow Diagram
 
-![flow diagram](https://github.com/superDev427/BlockChain-Tra/blob/master/public/networking-overview.png)
+![flow diagram](https://github.com/superDev427/BlockChain-Tra/master/public/networking-overview.png)
 
 
 ## Demon CLI
