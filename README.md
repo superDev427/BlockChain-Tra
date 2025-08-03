@@ -4,7 +4,7 @@
 This is a fully decentralized blockchain project that implements some of the major features of popular cryptocurrency project like Bitcoin and ethereum using go programming language. This an experimental project for learning purposes and it contains a detailed overview of how blockchain works, **most importantly how this project works**. This project was inspired by [Go Ethereum]and [bitcoin]. This projects is built on existing research and experimentation but offer better networking implementation with the use of automatic peer discovery with the help of lip2p library collection and CLIUI for each Host/Peers to see how peers interact with each other in realtime
 
 # Flow Diagram
-![flow diagram](https://github.com/superDev427/BlockChain-Tra/blob/main/public/flow-diagram-BlockChain-Tra.png)
+![flow diagram](https://github.com/superDev427/BlockChain-Tra/blob/main/public/flow-diagram-the-crypto-project.png)
 
 ## Prerequisite
 - Programming language: [Golang](https://golang.org/)
